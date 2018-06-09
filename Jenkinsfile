@@ -27,7 +27,7 @@ stage('publish'){
 stage('deployment'){
   versionId = input message: 'Please provide versionId', ok: 'Deploy', parameters: [string(defaultValue: '', description: '', name: 'versionId')]
   node {
-    sshagent(['userx']) {
+    sshagent(['user1']) {
       java_installer_url = "http://${devops_host}:8081/server-jre-8u171-linux-x64.tar.gz"
 
       sh "ssh -o StrictHostKeyChecking=no ${user_id}@${web_host} "+
