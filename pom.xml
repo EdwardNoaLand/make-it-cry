@@ -8,12 +8,12 @@
         <repository>
             <id>central</id>
             <name>a438e7fc804d-releases</name>
-            <url>http://65.52.170.46:8083/artifactory/great-company</url>
+            <url>http://40.83.78.170:8083/artifactory/great-company</url>
         </repository>
         <snapshotRepository>
             <id>snapshots</id>
             <name>a438e7fc804d-snapshots</name>
-            <url>http://65.52.170.46:8083/artifactory/great-company</url>
+            <url>http://40.83.78.170:8083/artifactory/great-company</url>
         </snapshotRepository>
     </distributionManagement>
 
@@ -23,7 +23,7 @@
 
     <packaging>war</packaging>
     <description>Just make it cry</description>
-    <version>1.0</version>
+    <version>1.1</version>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
