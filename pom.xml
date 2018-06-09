@@ -17,7 +17,7 @@
         </snapshotRepository>
     </distributionManagement>
 
-    <groupId>sample</groupId>
+    <groupId>user1</groupId>
     <artifactId>make-it-cry</artifactId>
     <name>make-it-cry</name>
 
