@@ -4,6 +4,18 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
 	http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <distributionManagement>
+        <repository>
+            <id>central</id>
+            <name>a438e7fc804d-releases</name>
+            <url>http://65.52.170.46:8083/artifactory/great-company</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>a438e7fc804d-snapshots</name>
+            <url>http://65.52.170.46:8083/artifactory/great-company</url>
+        </snapshotRepository>
+    </distributionManagement>
 
     <groupId>sample</groupId>
     <artifactId>make-it-cry</artifactId>
