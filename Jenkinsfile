@@ -1,5 +1,5 @@
-devops_host = '40.83.78.170'
-web_host = '40.83.78.170'
+devops_host = '40.83.100.63'
+web_host = '40.83.100.63'
 user_id = 'user1'
 
 
