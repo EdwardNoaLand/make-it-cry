@@ -5,7 +5,7 @@ user_id = 'user1'
 
 stage('build'){
   node {
-    // git url:'https://github.com/EdwardNoaLand/make-it-cry.git', branch: 'master'
+    git url:'https://github.com/EdwardNoaLand/make-it-cry.git', branch: 'master'
     withMaven(maven: 'mvn', mavenLocalRepo: '.repository') { sh "mvn clean compile" }
   }
 }
